@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="htmlpurifier" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
+    <name>HTML Purifier</name>
+    <description>HTML Purifier text formatter.</description>
+    <repo type="github">https://github.com/jensscherbl/htmlpurifier</repo>
+    <types>
+        <type>Text Formatter</type>
+    </types>
+    <authors>
+        <author>
+            <name github="jensscherbl" symphony="jensscherbl">Jens Scherbl</name>
+        </author>
+    </authors>
+    <releases>
+        <release version="1.0.0" date="2014-12-07" min="2.5.x" max="2.x.x"/>
+    </releases>
+</extension>
