@@ -4,5 +4,5 @@
 
 A strongly specified, highly compatible implementation of Markdown.
 
-[1]: http://commonmark.org
+[1]: http://htmlpurifier.org
 [2]: http://getsymphony.com
