@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension id="htmlpurifier" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
+<extension id="htmlpurifier" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0/">
     <name>HTML Purifier</name>
     <description>HTML Purifier text formatter.</description>
-    <repo type="github">https://github.com/jensscherbl/htmlpurifier</repo>
+    <repo type="github">http://github.com/jensscherbl/htmlpurifier/</repo>
     <types>
         <type>Text Formatter</type>
     </types>
