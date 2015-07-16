@@ -12,6 +12,7 @@
         </author>
     </authors>
     <releases>
+        <release version="1.0.1" date="2015-07-16" min="2.5.x" max="2.x.x"/>
         <release version="1.0.0" date="2014-12-07" min="2.5.x" max="2.x.x"/>
     </releases>
 </extension>
