@@ -1,29 +1,24 @@
 <?php
 
-require_once EXTENSIONS . '/htmlpurifier/vendor/autoload.php';
-
 class FormatterHTMLPurifier extends TextFormatter
 {
-    private $formatter;
+    private $htmlPurifier;
 
     public function __construct()
     {
-        if (!$this->formatter) {
+        $this->htmlPurifier = new HTMLPurifier([
 
-            $this->formatter = new HTMLPurifier(array(
-
-                'Cache.SerializerPath' => CACHE
-            ));
-        }
+            'Cache.SerializerPath' => CACHE
+        ]);
     }
 
     public function about()
     {
-        return array('name' => 'HTML Purifier');
+        return [ 'name' => 'HTML Purifier' ];
     }
 
     public function run($string)
     {
-        return trim($this->formatter->purify($string));
+        return trim($this->htmlPurifier->purify($string));
     }
 }
