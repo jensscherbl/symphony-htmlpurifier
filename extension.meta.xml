@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <extension id="htmlpurifier" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
     <name>HTML Purifier</name>
     <description>HTML Purifier text formatter.</description>
