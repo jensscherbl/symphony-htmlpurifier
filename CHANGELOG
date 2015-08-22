@@ -1,10 +1,15 @@
 Changelog
 
+2.0.0 (2015-08-22)
+
+- Removed dependencies.
+
 1.0.1 (2015-07-16)
 
-- Project cleanup.
+- Cleaned up project.
 
 1.0.0 (2014-12-07)
 
+- Requires PHP 5.6.x.
 - Requires Symphony 2.5.x.
 - Initial release.
